@@ -1,0 +1,97 @@
+.logo {
+    height: 39px;
+}
+
+.fondoSuperior {
+    width: 100%;
+}
+
+body{
+    background: url(../img/backgroundPage.webp);
+}
+
+.shadowBorderExtern{
+    /*ejemplo sacado de https://lenguajecss.com/css/sombras/box-shadow/*/
+    /*box-shadow: PosXpx PosYpx Size1px Size1px #ColorHEX inset; */
+    /*PosXpx: posición horizontal en pixeles*/
+    /*PosYpx: posición vertical en pixeles*/
+    /*Size1px: difuminado en pixeles*/
+    /*Size2px: factor de crecimiento pixeles*/
+    /*#ColorHEX: color en hexadecimal*/
+    /*inset: indica que la sombra es interna*/
+
+    /*box-shadow: 5px 5px 0;       Sombra sin desenfoque */
+    /*box-shadow: 5px 5px 2px;     Sombra con ligero desenfoque */
+    /*box-shadow: 5px 5px 10px;    Sombra desenfocada */
+    box-shadow: 0px 0px 15px #000000;   /* Sombra con un desenfoque casi disipado */
+}
+
+.shadowBorderIntern{ /*En desuso*/
+    /*ejemplo sacado de https://lenguajecss.com/css/sombras/box-shadow/*/
+    box-shadow: 5px 5px 40px 50px #000000 inset;   /* Sombra con un desenfoque casi disipado */
+}
+
+.footerHeight {
+    height: 200px;
+}
+
+.footerDown {
+    margin-bottom: -25px;
+}
+
+.sidebarWidthPosition {
+    width: 21%;
+    right: 0;
+}
+
+.sidebarSpace {
+    margin-right: 21%;
+}
+
+.navbarSpace {
+    margin-top: 40px;
+}
+
+.sidebarCategorySpace {
+    margin-top: 50px;
+}
+
+.visibilidad {
+    display: none;
+}
+
+.anchoTarjetas {
+    width: 250px;
+}
+
+.justificacion {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.roundCorners {
+    border-radius: 10px;
+}
+
+.textoSinAdornos {
+    text-decoration: none;
+}
+
+article[id], body[id]{
+    scroll-margin-top: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.socialMediaIconSize {
+    width: 30px;
+}
+
+.widthIconSocialMediaContainerFooter {
+    width: 40%;
+}
+.widthIconSocialMediaContainer {
+    width: 20%;
+}
